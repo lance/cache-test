@@ -18,6 +18,7 @@ class CacheIncrementService
   end
 
   def stop
+    @done = true
   end
 
   private 
